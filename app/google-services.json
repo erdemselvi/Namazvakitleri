@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619842596692",
+    "project_id": "namazvakitleri-1a255",
+    "storage_bucket": "namazvakitleri-1a255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619842596692:android:d08dc94e27133765e3e2c1",
+        "android_client_info": {
+          "package_name": "com.erdemselvi.namazvakitleri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619842596692-qvv1q3camlvcp8cc87e51behcpe7jkfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNLdZ240_ved-BLgFlee19tbLnQPR8hw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619842596692-qvv1q3camlvcp8cc87e51behcpe7jkfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

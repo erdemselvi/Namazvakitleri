@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_green">
+
+        <TextView
+            android:id="@+id/tvHicriTarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hicri Tarih:"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTarih"
+            app:layout_constraintEnd_toStartOf="@+id/tvHicriTarih"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvIkındi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İkindi"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvIkindi"
+            app:layout_constraintStart_toStartOf="@+id/tvIkindi"
+            app:layout_constraintTop_toTopOf="@+id/tvGunes2" />
+
+        <TextView
+            android:id="@+id/tvImsak2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="İmsak"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvImsak"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tvGunes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Güneş"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvGunes"
+            app:layout_constraintStart_toStartOf="@+id/tvGunes"
+            app:layout_constraintTop_toTopOf="@+id/tvImsak2" />
+
+        <TextView
+            android:id="@+id/tvOgle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Öğle"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvOgle"
+            app:layout_constraintStart_toStartOf="@+id/tvOgle"
+            app:layout_constraintTop_toTopOf="@+id/tvGunes2" />
+
+        <TextView
+            android:id="@+id/tvYatsi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yatsı"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvYatsi"
+            app:layout_constraintStart_toStartOf="@+id/tvYatsi"
+            app:layout_constraintTop_toTopOf="@+id/tvImsak2" />
+
+        <TextView
+            android:id="@+id/tvAksam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akşam"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tvAksam"
+            app:layout_constraintStart_toStartOf="@+id/tvAksam"
+            app:layout_constraintTop_toTopOf="@+id/tvImsak2" />
+
+        <TextView
+            android:id="@+id/tvImsak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvGunes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvImsak2" />
+
+        <TextView
+            android:id="@+id/tvGunes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvOgle"
+            app:layout_constraintStart_toEndOf="@+id/tvImsak"
+            app:layout_constraintTop_toBottomOf="@+id/tvGunes2" />
+
+        <TextView
+            android:id="@+id/tvOgle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvIkindi"
+            app:layout_constraintStart_toEndOf="@+id/tvGunes"
+            app:layout_constraintTop_toBottomOf="@+id/tvOgle2" />
+
+        <TextView
+            android:id="@+id/tvIkindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvAksam"
+            app:layout_constraintStart_toEndOf="@+id/tvOgle"
+            app:layout_constraintTop_toBottomOf="@+id/tvIkındi2" />
+
+        <TextView
+            android:id="@+id/tvAksam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvYatsi"
+            app:layout_constraintStart_toEndOf="@+id/tvIkindi"
+            app:layout_constraintTop_toBottomOf="@+id/tvAksam2" />
+
+        <TextView
+            android:id="@+id/tvYatsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ivAyGorunum"
+            app:layout_constraintStart_toEndOf="@+id/tvAksam"
+            app:layout_constraintTop_toBottomOf="@+id/tvYatsi2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Miladi Tarih:"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTarih"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvTarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivAyGorunum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvAksam2"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

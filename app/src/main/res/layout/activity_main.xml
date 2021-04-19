@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAylıkNamazVakitleri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSehir" />
+
+    <TextView
+        android:id="@+id/tvSehir"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@drawable/gradient_green"
+        android:gravity="center"
+        android:text="Diyarbakır"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvbildirimCubugu"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="Bildirim Çubuğunda Göster"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="+"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/tvbildirimCubugu"
+        app:layout_constraintStart_toStartOf="@+id/tvbildirimCubugu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="-"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/tvbildirimCubugu"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swBildirimCubugu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="3dp"
+        android:checked="false"
+        android:textColorLink="@color/design_default_color_error"
+        android:textOff="Kapalı"
+        android:textOn="Açık"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/tvbildirimCubugu"
+        app:layout_constraintEnd_toEndOf="@+id/tvbildirimCubugu"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Namaz Vakitleri</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="admod_app_id">ca-app-pub-5954365244553700~2106411052</string>
+    <string name="admob_banner_id">ca-app-pub-5954365244553700/3583144250</string>
+    <string name="interstitial_admob_id">ca-app-pub-5954365244553700/2523098043</string>
+</resources>

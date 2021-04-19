@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_item_vakitler"
+        android:title="Namaz Vakitleri"
+        android:icon="@drawable/ic_baseline_access_time_24"></item>
+    <item android:id="@+id/nav_item_aylik_vakitler"
+        android:title="Aylık Vakitler"
+        android:icon="@drawable/ic_baseline_all_inclusive_24"
+        ></item>
+    <item android:id="@+id/nav_item_il_degistir"
+        android:title="Şehir değiştir"
+        android:icon="@drawable/ic_baseline_cached_24"
+        ></item>
+    <item android:id="@+id/nav_item_ayarlar"
+        android:title="Ayarlar (Yakında)"
+        android:icon="@drawable/ic_baseline_settings_24"
+        ></item>
+    <item android:id="@+id/nav_item_hakkinda"
+    android:title="Hakkında"
+    android:icon="@drawable/ic_baseline_info_24"
+    ></item>
+</menu>
